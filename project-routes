@@ -1,0 +1,7 @@
+- http://localhost:3000/login (public)
+- http://localhost:3000/signup (public)
+- http://localhost:3000/logout (public)
+- http://localhost:3000/user-details (private)
+- http://localhost:3000/about (public)
+- http://localhost:3000/contact (public)
+

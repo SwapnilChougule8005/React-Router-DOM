@@ -1,0 +1,109 @@
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+  }
+  
+  .box {
+    width: 300px;
+    padding: 40px;
+    position: relative;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.75);
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    color: #fff;
+  }
+  
+  .text-center {
+    font-size: 24px;
+    margin-bottom: 20px;
+    display: block;
+    color: #fff;
+  }
+  
+  .input-container {
+    position: relative;
+    margin-bottom: 25px;
+  }
+  
+  .input-container input {
+    width: 100%;
+    padding: 10px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .input-container label {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    padding: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #ccc;
+  }
+  
+  .input-container input:focus ~ label,
+  .input-container input:valid ~ label {
+    top: -18px;
+    left: 0;
+    color: #e50914;
+    font-size: 12px;
+  }
+  
+  .error-message {
+    color: #e50914;
+    font-size: 0.9em;
+    margin-top: 5px;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 10px;
+    background: #e50914;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background: #b20710;
+  }
+  
+  .toggle-link {
+    color: #e50914;
+    cursor: pointer;
+  }
+  
+  .toggle-link:hover {
+    text-decoration: underline;
+  }
+  
+  .password-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .password-container input {
+    flex: 1;
+  }
+  
+  .eye-icon {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #ccc;
+  }
